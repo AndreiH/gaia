@@ -1,0 +1,9 @@
+#!/home/andreihutusoru/webQA/b2g-gaia/gaia/travis_venv/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'gaiatest==0.21.3','console_scripts','gaiatest'
+__requires__ = 'gaiatest==0.21.3'
+import sys
+from pkg_resources import load_entry_point
+
+sys.exit(
+   load_entry_point('gaiatest==0.21.3', 'console_scripts', 'gaiatest')()
+)

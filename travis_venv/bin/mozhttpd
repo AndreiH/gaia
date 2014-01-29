@@ -1,0 +1,9 @@
+#!/home/andreihutusoru/webQA/b2g-gaia/gaia/travis_venv/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'mozhttpd==0.7','console_scripts','mozhttpd'
+__requires__ = 'mozhttpd==0.7'
+import sys
+from pkg_resources import load_entry_point
+
+sys.exit(
+   load_entry_point('mozhttpd==0.7', 'console_scripts', 'mozhttpd')()
+)

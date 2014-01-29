@@ -1,0 +1,9 @@
+#!/home/andreihutusoru/webQA/b2g-gaia/gaia/travis_venv/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'mozrunner==5.30','console_scripts','mozrunner'
+__requires__ = 'mozrunner==5.30'
+import sys
+from pkg_resources import load_entry_point
+
+sys.exit(
+   load_entry_point('mozrunner==5.30', 'console_scripts', 'mozrunner')()
+)

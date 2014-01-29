@@ -1,0 +1,9 @@
+#!/home/andreihutusoru/webQA/b2g-gaia/gaia/travis_venv/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'ManifestDestiny==0.6','console_scripts','manifestparser'
+__requires__ = 'ManifestDestiny==0.6'
+import sys
+from pkg_resources import load_entry_point
+
+sys.exit(
+   load_entry_point('ManifestDestiny==0.6', 'console_scripts', 'manifestparser')()
+)

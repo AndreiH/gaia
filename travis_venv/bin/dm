@@ -1,0 +1,9 @@
+#!/home/andreihutusoru/webQA/b2g-gaia/gaia/travis_venv/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'mozdevice==0.31','console_scripts','dm'
+__requires__ = 'mozdevice==0.31'
+import sys
+from pkg_resources import load_entry_point
+
+sys.exit(
+   load_entry_point('mozdevice==0.31', 'console_scripts', 'dm')()
+)

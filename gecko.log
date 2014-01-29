@@ -1,0 +1,127 @@
+1390814327750	Marionette	INFO	marionette enabled via build flag and pref
+1390814327935	Marionette	INFO	marionette-server.js loaded
+1390814327950	Marionette	INFO	Listening on port 2828
+
+1390814327950	Marionette	INFO	Marionette server ready
+1390814327954	Marionette	INFO	marionette enabled via command-line
+PermissionsTable.jsm: expandPermissions: Unknown Permission: video-capturePermissionsInstaller.jsm: 'video-capture' is not a valid Webapps permission name.PermissionsTable.jsm: expandPermissions: Unknown Permission: video-capturePermissionsInstaller.jsm: 'video-capture' is not a valid Webapps permission name.PermissionsTable.jsm: expandPermissions: Unknown Permission: video-capturePermissionsInstaller.jsm: 'video-capture' is not a valid Webapps permission name.1390814328636	Marionette	DEBUG	accepted connection on 127.0.0.1:44101
+###################################### forms.js loaded
+############################### browserElementPanning.js loaded
+######################## BrowserElementChildPreload.js loaded
+*** UTM:SVC TimerManager:registerTimer - id: user-agent-updates-timer
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+JavaScript error: app://system.gaiamobile.org/js/operator_variant/operator_variant_iccs.js, line 37: OperatorVariantHandler is not defined
+XXX FIXME : Got a mozContentEvent: nfc-hardware-state-change
+XXX FIXME : Got a mozContentEvent: system-message-listener-ready
+Illegal value for debugger.remote-mode: false
+XXX FIXME : Got a mozContentEvent: accessibility-screenreader
+XXX FIXME : Got a mozContentEvent: nfc-hardware-state-change
+JavaScript error: app://system.gaiamobile.org/js/telephony_settings.js, line 36: conn.setRoamingPreference is not a function
+XXX FIXME : Got a mozContentEvent: inputmethod-update-layouts
+############################### browserElementPanning.js loaded
+######################## BrowserElementChildPreload.js loaded
+XXX FIXME : Got a mozContentEvent: inputmethod-update-layouts
+############################### browserElementPanning.js loaded
+######################## BrowserElementChildPreload.js loaded
+############################### browserElementPanning.js loaded
+######################## BrowserElementChildPreload.js loaded
+XXX FIXME : Got a mozContentEvent: inputmethod-update-layouts
+XXX FIXME : Got a mozContentEvent: inputmethod-update-layouts
+XXX FIXME : Got a mozContentEvent: inputmethod-update-layouts
+XXX FIXME : Got a mozContentEvent: inputmethod-update-layouts
+XXX FIXME : Got a mozContentEvent: nfc-hardware-state-change
+###################################### forms.js loaded
+############################### browserElementPanning.js loaded
+######################## BrowserElementChildPreload.js loaded
+1390814333640	Marionette	DEBUG	accepted connection on 127.0.0.1:44103
+1390814333664	Marionette	INFO	loaded marionette-listener.js
+1390814333664	Marionette	INFO	sendToClient: {"from":"0","value":"6-b2g"}, {0f205f10-82fc-428d-80f7-a6ea819e88bb}, {0f205f10-82fc-428d-80f7-a6ea819e88bb}
+1390814333665	Marionette	INFO	sendToClient: {"from":"0","ok":true}, {d4a2a9a8-f030-4b2c-b840-d6c6b6387af9}, {d4a2a9a8-f030-4b2c-b840-d6c6b6387af9}
+1390814333666	Marionette	INFO	sendToClient: {"from":"0","ok":true}, {d1f51187-a00c-484f-92ed-cfd511e87268}, {d1f51187-a00c-484f-92ed-cfd511e87268}
+1390814333667	Marionette	INFO	sendToClient: {"from":"0","ok":true}, {d809f95c-d8af-4ba9-8a32-694ccc173e98}, {d809f95c-d8af-4ba9-8a32-694ccc173e98}
+1390814333708	Marionette	INFO	sendToClient: {"from":"0","ok":true}, {dc7e9e5d-5e76-45a7-8eea-10bfd31d4929}, {dc7e9e5d-5e76-45a7-8eea-10bfd31d4929}
+1390814333750	Marionette	INFO	sendToClient: {"from":"0","ok":true}, {1c53daa5-2e6c-43cd-ae31-fa354188a701}, {1c53daa5-2e6c-43cd-ae31-fa354188a701}
+1390814333820	Marionette	INFO	sendToClient: {"from":"0","ok":true}, {eabda5cb-4a31-4ed5-b6f8-e0f52a08118c}, {eabda5cb-4a31-4ed5-b6f8-e0f52a08118c}
+1390814333862	Marionette	INFO	sendToClient: {"from":"0","ok":true}, {b109b3f1-0619-445d-9141-2c1c9ee9db6e}, {b109b3f1-0619-445d-9141-2c1c9ee9db6e}
+1390814333902	Marionette	INFO	sendToClient: {"from":"0","ok":true}, {fa8c01a9-e5e2-4c46-9c52-bd562d4c3212}, {fa8c01a9-e5e2-4c46-9c52-bd562d4c3212}
+1390814333944	Marionette	INFO	sendToClient: {"from":"0","ok":true}, {8ae246eb-b0ea-4aee-b992-ccf074fb6fc1}, {8ae246eb-b0ea-4aee-b992-ccf074fb6fc1}
+1390814333945	Marionette	DEBUG	Got request: executeWithCallback, data: {"to":"0","sessionId":"6-b2g","name":"executeAsyncScript","parameters":{"specialPowers":true,"scriptTimeout":null,"newSandbox":true,"args":[],"filename":"gaia_test.py","script":"return GaiaDataLayer.setSetting(\"keyboard.ftu.enabled\", false)","line":210}}, id: {1987f0bb-c3d6-44dd-b088-44b64bd0f91f}
+1390814333952	Marionette	INFO	sendToClient: {"from":"0","value":true}, {1987f0bb-c3d6-44dd-b088-44b64bd0f91f}, {1987f0bb-c3d6-44dd-b088-44b64bd0f91f}
+1390814333953	Marionette	DEBUG	Got request: switchToFrame, data: {"to":"0","sessionId":"6-b2g","name":"switchToFrame","parameters":{"id":null,"focus":true}}, id: {163d028a-b776-4f09-a25f-f1b30e57ad33}
+1390814333954	Marionette	INFO	Switched to frame: {"frameValue":null}
+1390814334054	Marionette	INFO	sendToClient: {"from":"0","ok":true}, {163d028a-b776-4f09-a25f-f1b30e57ad33}, {163d028a-b776-4f09-a25f-f1b30e57ad33}
+1390814334055	Marionette	DEBUG	Got request: executeWithCallback, data: {"to":"0","sessionId":"6-b2g","name":"executeAsyncScript","parameters":{"specialPowers":false,"scriptTimeout":null,"newSandbox":true,"args":[],"filename":"gaia_test.py","script":"GaiaLockScreen.unlock()","line":42}}, id: {00a518eb-b70b-40e5-b948-4d364137d383}
+1390814334060	Marionette	INFO	sendToClient: {"from":"0","value":{"passed":0,"failed":0,"failures":[]}}, {00a518eb-b70b-40e5-b948-4d364137d383}, {00a518eb-b70b-40e5-b948-4d364137d383}
+1390814334061	Marionette	DEBUG	Got request: switchToFrame, data: {"to":"0","sessionId":"6-b2g","name":"switchToFrame","parameters":{"id":null,"focus":true}}, id: {ea3a69b7-5f38-4d7e-bbfd-35173cf6b5ab}
+1390814334061	Marionette	INFO	Switched to frame: {"frameValue":null}
+1390814334162	Marionette	INFO	sendToClient: {"from":"0","ok":true}, {ea3a69b7-5f38-4d7e-bbfd-35173cf6b5ab}, {ea3a69b7-5f38-4d7e-bbfd-35173cf6b5ab}
+1390814334164	Marionette	INFO	sendToClient: {"from":"0","ok":true}, {27321a10-983d-4435-9efe-74abba0989a9}, {27321a10-983d-4435-9efe-74abba0989a9}
+1390814334165	Marionette	DEBUG	Got request: executeWithCallback, data: {"to":"0","sessionId":"6-b2g","name":"executeAsyncScript","parameters":{"specialPowers":false,"scriptTimeout":null,"newSandbox":true,"args":[],"filename":"gaia_test.py","script":"GaiaApps.killAll()","line":119}}, id: {756dedc0-10fa-45c2-929d-d25efe3ec70d}
+############################### browserElementPanning.js loaded
+######################## BrowserElementChildPreload.js loaded
+JavaScript error: app://costcontrol.gaiamobile.org/js/networkstats_proxy.js, line 68: stats is undefined
+JavaScript error: app://costcontrol.gaiamobile.org/js/common.js, line 357: navigator.mozNetworkStats is undefined
+XXX FIXME : Got a mozContentEvent: force-update-check
+1390814334687	Marionette	INFO	sendToClient: {"from":"0","value":true}, {756dedc0-10fa-45c2-929d-d25efe3ec70d}, {756dedc0-10fa-45c2-929d-d25efe3ec70d}
+1390814334688	Marionette	DEBUG	Got request: executeWithCallback, data: {"to":"0","sessionId":"6-b2g","name":"executeAsyncScript","parameters":{"specialPowers":true,"scriptTimeout":null,"newSandbox":true,"args":[],"filename":"gaia_test.py","script":"return GaiaDataLayer.setSetting(\"audio.volume.alarm\", 0)","line":210}}, id: {8831bb69-0a35-4a4c-b55a-a134b3a7d088}
+1390814334917	Marionette	INFO	sendToClient: {"from":"0","value":true}, {8831bb69-0a35-4a4c-b55a-a134b3a7d088}, {8831bb69-0a35-4a4c-b55a-a134b3a7d088}
+1390814334919	Marionette	DEBUG	Got request: executeWithCallback, data: {"to":"0","sessionId":"6-b2g","name":"executeAsyncScript","parameters":{"specialPowers":true,"scriptTimeout":null,"newSandbox":true,"args":[],"filename":"gaia_test.py","script":"return GaiaDataLayer.setSetting(\"audio.volume.content\", 0)","line":210}}, id: {ecfec649-637f-4a81-8bc0-2ccd48347a3f}
+1390814335069	Marionette	INFO	sendToClient: {"from":"0","value":true}, {ecfec649-637f-4a81-8bc0-2ccd48347a3f}, {ecfec649-637f-4a81-8bc0-2ccd48347a3f}
+1390814335071	Marionette	DEBUG	Got request: executeWithCallback, data: {"to":"0","sessionId":"6-b2g","name":"executeAsyncScript","parameters":{"specialPowers":true,"scriptTimeout":null,"newSandbox":true,"args":[],"filename":"gaia_test.py","script":"return GaiaDataLayer.setSetting(\"audio.volume.notification\", 0)","line":210}}, id: {d753c61f-c21b-4df6-9a50-ab379941f28b}
+1390814335374	Marionette	INFO	sendToClient: {"from":"0","value":true}, {d753c61f-c21b-4df6-9a50-ab379941f28b}, {d753c61f-c21b-4df6-9a50-ab379941f28b}
+1390814335416	Marionette	INFO	sendToClient: {"from":"0","ok":true}, {ceaf299d-dddc-4681-a2bd-aaf46026e457}, {ceaf299d-dddc-4681-a2bd-aaf46026e457}
+1390814335458	Marionette	INFO	sendToClient: {"from":"0","ok":true}, {8d1f64ac-bb14-46b8-be7c-71617be4fad8}, {8d1f64ac-bb14-46b8-be7c-71617be4fad8}
+1390814335503	Marionette	INFO	sendToClient: {"from":"0","ok":true}, {e466462a-2c9f-4560-9f76-d09b3f416114}, {e466462a-2c9f-4560-9f76-d09b3f416114}
+1390814335504	Marionette	DEBUG	Got request: switchToFrame, data: {"to":"0","sessionId":"6-b2g","name":"switchToFrame","parameters":{"id":null,"focus":true}}, id: {8860e2ff-6007-4d00-9380-bdac49342d48}
+1390814335505	Marionette	INFO	Switched to frame: {"frameValue":null}
+1390814335606	Marionette	INFO	sendToClient: {"from":"0","ok":true}, {8860e2ff-6007-4d00-9380-bdac49342d48}, {8860e2ff-6007-4d00-9380-bdac49342d48}
+1390814335607	Marionette	DEBUG	Got request: executeWithCallback, data: {"to":"0","sessionId":"6-b2g","name":"executeAsyncScript","parameters":{"specialPowers":false,"scriptTimeout":120000,"newSandbox":true,"args":[],"filename":"gaia_test.py","script":"GaiaApps.launchWithName('UI Tests')","line":75}}, id: {68593ebf-80fa-4d20-8fb5-ec33b8a5b8b9}
+############################### browserElementPanning.js loaded
+######################## BrowserElementChildPreload.js loaded
+1390814336038	Marionette	INFO	sendToClient: {"from":"0","value":{"frame":{"ELEMENT":"{d335cdca-8304-48d8-bb25-456c99126ca9}"},"src":"app://uitest.gaiamobile.org/index.html","name":"UI tests","origin":"app://uitest.gaiamobile.org"}}, {68593ebf-80fa-4d20-8fb5-ec33b8a5b8b9}, {68593ebf-80fa-4d20-8fb5-ec33b8a5b8b9}
+1390814336038	Marionette	DEBUG	Got request: switchToFrame, data: {"to":"0","sessionId":"6-b2g","name":"switchToFrame","parameters":{"focus":true,"element":"{d335cdca-8304-48d8-bb25-456c99126ca9}"}}, id: {46ff3693-1912-4392-b8c0-060e6818454d}
+1390814336039	Marionette	INFO	Switched to frame: {"frameValue":"{d335cdca-8304-48d8-bb25-456c99126ca9}"}
+1390814336139	Marionette	INFO	sendToClient: {"from":"0","ok":true}, {46ff3693-1912-4392-b8c0-060e6818454d}, {46ff3693-1912-4392-b8c0-060e6818454d}
+1390814336140	Marionette	INFO	sendToClient: {"from":"0","value":"app://uitest.gaiamobile.org/index.html#UI"}, {7afa2729-eb09-4eb0-97f8-dd295f85371d}, {7afa2729-eb09-4eb0-97f8-dd295f85371d}
+1390814336643	Marionette	INFO	sendToClient: {"from":"0","value":{"ELEMENT":"{64c4d208-990c-455e-8f03-8747293200f2}"}}, {5838fba2-8bcd-4da8-a228-6388ece84750}, {5838fba2-8bcd-4da8-a228-6388ece84750}
+1390814336651	Marionette	INFO	sendToClient: {"from":"0","value":true}, {f3446ecc-35ff-4cc5-8ca5-97bf1845a25e}, {f3446ecc-35ff-4cc5-8ca5-97bf1845a25e}
+1390814336652	Marionette	INFO	sendToClient: {"from":"0","value":{"ELEMENT":"{64c4d208-990c-455e-8f03-8747293200f2}"}}, {ab1f964e-a17b-41a4-91e0-69186c82af0d}, {ab1f964e-a17b-41a4-91e0-69186c82af0d}
+1390814336659 Marionette: emitting Touch event of type touchstart to element with id: UI and tag name: A at coordinates (53, 436) relative to the viewport1390814336662 Marionette: emitting Touch event of type touchend to element with id: UI and tag name: A at coordinates (53, 436) relative to the viewport1390814336692 Marionette: emitting Mouse event of type mousemove at coordinates (53.333335876464844, 436) relative to the viewport1390814336694 Marionette: emitting Mouse event of type mousedown at coordinates (53.333335876464844, 436) relative to the viewport1390814336696 Marionette: emitting Mouse event of type mouseup at coordinates (53.333335876464844, 436) relative to the viewport1390814336698	Marionette	INFO	sendToClient: {"from":"0","ok":true}, {95dcb82d-a9a9-4387-81de-26348d87d3e6}, {95dcb82d-a9a9-4387-81de-26348d87d3e6}
+1390814337200	Marionette	INFO	sendToClient: {"from":"0","value":{"ELEMENT":"{23614e66-c4dc-4e70-9f0b-90f20346dddc}"}}, {30dd0243-e5ae-4dac-9b08-1fe9d545a5c4}, {30dd0243-e5ae-4dac-9b08-1fe9d545a5c4}
+1390814337206	Marionette	INFO	sendToClient: {"from":"0","value":true}, {31c8ea18-b9fe-4a71-b89f-4d8a0f25eeff}, {31c8ea18-b9fe-4a71-b89f-4d8a0f25eeff}
+1390814337207	Marionette	INFO	sendToClient: {"from":"0","value":{"ELEMENT":"{23614e66-c4dc-4e70-9f0b-90f20346dddc}"}}, {0a833685-73b6-452f-98c4-ec07ae641b87}, {0a833685-73b6-452f-98c4-ec07ae641b87}
+1390814337213 Marionette: emitting Touch event of type touchstart to element with id:  and tag name: A at coordinates (160, 188) relative to the viewport1390814337216 Marionette: emitting Touch event of type touchend to element with id:  and tag name: A at coordinates (160, 188) relative to the viewport1390814337254 Marionette: emitting Mouse event of type mousemove at coordinates (160, 188.25) relative to the viewport1390814337255 Marionette: emitting Mouse event of type mousedown at coordinates (160, 188.25) relative to the viewport1390814337257 Marionette: emitting Mouse event of type mouseup at coordinates (160, 188.25) relative to the viewport1390814337258	Marionette	INFO	sendToClient: {"from":"0","ok":true}, {a1d48bee-5ff9-43e7-877d-373af3e3b34b}, {a1d48bee-5ff9-43e7-877d-373af3e3b34b}
+1390814337291	Marionette	INFO	sendToClient: {"from":"0","ok":true}, {36a01536-90e6-417b-8ee2-f23b3f057a50}, {36a01536-90e6-417b-8ee2-f23b3f057a50}
+1390814337331	Marionette	INFO	sendToClient: {"from":"0","ok":true}, {a57a15a6-db53-4373-b816-b459b0e3cd76}, {a57a15a6-db53-4373-b816-b459b0e3cd76}
+1390814337376	Marionette	INFO	sendToClient: {"from":"0","ok":true}, {c8e8d4f2-96cd-47a7-8f64-9f21671b21b6}, {c8e8d4f2-96cd-47a7-8f64-9f21671b21b6}
+1390814337878	Marionette	INFO	sendToClient: {"from":"0","value":{"ELEMENT":"{e434ff00-53a8-4597-aba7-c6c4484875ff}"}}, {db66b216-111f-441e-8789-355ff2d36acf}, {db66b216-111f-441e-8789-355ff2d36acf}
+1390814337883	Marionette	INFO	sendToClient: {"from":"0","value":true}, {ab42b35e-a339-42ec-b11f-56343d00ea9d}, {ab42b35e-a339-42ec-b11f-56343d00ea9d}
+1390814337884	Marionette	INFO	sendToClient: {"from":"0","value":{"ELEMENT":"{e434ff00-53a8-4597-aba7-c6c4484875ff}"}}, {56415d8e-de82-4c3c-9e9e-5eae5778da59}, {56415d8e-de82-4c3c-9e9e-5eae5778da59}
+1390814337885	Marionette	DEBUG	Got request: switchToFrame, data: {"to":"0","sessionId":"6-b2g","name":"switchToFrame","parameters":{"focus":true,"element":"{e434ff00-53a8-4597-aba7-c6c4484875ff}"}}, id: {a2cf43a2-7f21-45ac-b4dc-0e81692cb2e1}
+1390814337885	Marionette	INFO	Switched to frame: {"frameValue":"{e434ff00-53a8-4597-aba7-c6c4484875ff}"}
+1390814337987	Marionette	INFO	sendToClient: {"from":"0","ok":true}, {a2cf43a2-7f21-45ac-b4dc-0e81692cb2e1}, {a2cf43a2-7f21-45ac-b4dc-0e81692cb2e1}
+1390814337989	Marionette	INFO	sendToClient: {"from":"0","value":{"ELEMENT":"{09890b42-ad13-4c93-9bda-e0f4b0d971dc}"}}, {7facdf55-18de-4fbd-9c73-03b4091478af}, {7facdf55-18de-4fbd-9c73-03b4091478af}
+1390814337993	Marionette	INFO	sendToClient: {"from":"0","value":true}, {0e81d1d9-b48d-4e87-b3c5-14b32de3e8c5}, {0e81d1d9-b48d-4e87-b3c5-14b32de3e8c5}
+1390814337994	Marionette	INFO	sendToClient: {"from":"0","value":{"ELEMENT":"{09890b42-ad13-4c93-9bda-e0f4b0d971dc}"}}, {bb909662-2a40-411b-bc9e-e2ee5a9fd872}, {bb909662-2a40-411b-bc9e-e2ee5a9fd872}
+1390814337996 Marionette: emitting Touch event of type touchstart to element with id: contextMenu and tag name: SECTION at coordinates (160, 347) relative to the viewport1390814339003 Marionette: emitting Touch event of type touchend to element with id: contextMenu and tag name: SECTION at coordinates (160, 347) relative to the viewport1390814339029	Marionette	INFO	sendToClient: {"from":"0","value":null}, {fc0830f8-a7e2-4b15-95a4-967cd8f1287e}, {fc0830f8-a7e2-4b15-95a4-967cd8f1287e}
+1390814339108	Marionette	INFO	sendToClient: {"from":"0","ok":true}, {2d880686-d5d1-45fd-a043-96a4a0d48906}, {2d880686-d5d1-45fd-a043-96a4a0d48906}
+1390814339150	Marionette	INFO	sendToClient: {"from":"0","ok":true}, {e32bf9f2-12df-4d0f-8585-0607bdc007c0}, {e32bf9f2-12df-4d0f-8585-0607bdc007c0}
+1390814339192	Marionette	INFO	sendToClient: {"from":"0","ok":true}, {96575b61-8992-43ce-ace9-e94a5ba73cfc}, {96575b61-8992-43ce-ace9-e94a5ba73cfc}
+1390814339192	Marionette	DEBUG	Got request: switchToFrame, data: {"to":"0","sessionId":"6-b2g","name":"switchToFrame","parameters":{"id":null,"focus":true}}, id: {bd2878ae-cd3d-47b7-bfc9-89e45b20bc11}
+1390814339192	Marionette	INFO	Switched to frame: {"frameValue":null}
+1390814339294	Marionette	INFO	sendToClient: {"from":"0","ok":true}, {bd2878ae-cd3d-47b7-bfc9-89e45b20bc11}, {bd2878ae-cd3d-47b7-bfc9-89e45b20bc11}
+1390814339796	Marionette	INFO	sendToClient: {"from":"0","value":{"ELEMENT":"{7e5895cf-c8ee-4d12-becc-4b39c1846db3}"}}, {537b133c-c451-4a0d-bf51-be90f8e740e5}, {537b133c-c451-4a0d-bf51-be90f8e740e5}
+1390814339798	Marionette	INFO	sendToClient: {"from":"0","value":true}, {b39215d3-997e-4196-9be2-f2973885a053}, {b39215d3-997e-4196-9be2-f2973885a053}
+1390814339799	Marionette	INFO	sendToClient: {"from":"0","value":{"ELEMENT":"{7e5895cf-c8ee-4d12-becc-4b39c1846db3}"}}, {9a0fa9a2-f7e0-44e9-ac71-ed3b83ca4244}, {9a0fa9a2-f7e0-44e9-ac71-ed3b83ca4244}
+1390814339802	Marionette	INFO	sendToClient: {"from":"0","value":true}, {3151146d-6b43-4a01-b624-7c90facc4f5c}, {3151146d-6b43-4a01-b624-7c90facc4f5c}
+1390814339804	Marionette	INFO	sendToClient: {"from":"0","value":["{56514929-b434-4226-803b-f60f2380ede7}","{f65877ee-7f95-459a-8784-d9b3d88817d2}","{7b16fbd7-2732-4b6c-a0c0-b003ec1f63ef}","{592d0d04-b434-4920-8e05-a7237db0441b}"]}, {36a88336-cae0-4bb0-b743-6d68879e5ba8}, {36a88336-cae0-4bb0-b743-6d68879e5ba8}
+1390814339805	Marionette	INFO	sendToClient: {"from":"0","value":{"ELEMENT":"{592d0d04-b434-4920-8e05-a7237db0441b}"}}, {b3d66162-ed33-4651-a912-6d4df7a055d9}, {b3d66162-ed33-4651-a912-6d4df7a055d9}
+1390814339808 Marionette: emitting Touch event of type touchstart to element with id:  and tag name: BUTTON at coordinates (160, 445) relative to the viewport1390814339810 Marionette: emitting Touch event of type touchend to element with id:  and tag name: BUTTON at coordinates (160, 445) relative to the viewport1390814339810 Marionette: emitting Mouse event of type mousemove at coordinates (160, 445) relative to the viewport1390814339812 Marionette: emitting Mouse event of type mousedown at coordinates (160, 445) relative to the viewport1390814339814 Marionette: emitting Mouse event of type mouseup at coordinates (160, 445) relative to the viewport1390814339815	Marionette	INFO	sendToClient: {"from":"0","ok":true}, {200560ba-a6ea-492f-b8e0-42865be0b652}, {200560ba-a6ea-492f-b8e0-42865be0b652}
+1390814339816	Marionette	DEBUG	Got request: switchToFrame, data: {"to":"0","sessionId":"6-b2g","name":"switchToFrame","parameters":{"id":null,"focus":true}}, id: {4a74a9c7-0f58-4f48-a561-8ffcce31c321}
+1390814339816	Marionette	INFO	Switched to frame: {"frameValue":null}
+1390814339917	Marionette	INFO	sendToClient: {"from":"0","ok":true}, {4a74a9c7-0f58-4f48-a561-8ffcce31c321}, {4a74a9c7-0f58-4f48-a561-8ffcce31c321}
+1390814339918	Marionette	DEBUG	Got request: executeWithCallback, data: {"to":"0","sessionId":"6-b2g","name":"executeAsyncScript","parameters":{"specialPowers":false,"scriptTimeout":null,"newSandbox":true,"args":[],"filename":"gaia_test.py","script":"return GaiaApps.displayedApp();","line":90}}, id: {a624fa33-da2d-4a9c-a4a0-454566dedd88}
+1390814339921	Marionette	INFO	sendToClient: {"from":"0","value":{"frame":{"ELEMENT":"{d335cdca-8304-48d8-bb25-456c99126ca9}"},"src":"app://uitest.gaiamobile.org/index.html","name":"UI tests","origin":"app://uitest.gaiamobile.org"}}, {a624fa33-da2d-4a9c-a4a0-454566dedd88}, {a624fa33-da2d-4a9c-a4a0-454566dedd88}
+1390814339922	Marionette	DEBUG	Got request: switchToFrame, data: {"to":"0","sessionId":"6-b2g","name":"switchToFrame","parameters":{"focus":true,"element":"{d335cdca-8304-48d8-bb25-456c99126ca9}"}}, id: {6ba85b8f-0aeb-4ee1-bbb0-b47670922e5e}
+1390814339922	Marionette	INFO	Switched to frame: {"frameValue":"{d335cdca-8304-48d8-bb25-456c99126ca9}"}
+1390814340023	Marionette	INFO	sendToClient: {"from":"0","ok":true}, {6ba85b8f-0aeb-4ee1-bbb0-b47670922e5e}, {6ba85b8f-0aeb-4ee1-bbb0-b47670922e5e}

@@ -1,0 +1,9 @@
+#!/home/andreihutusoru/webQA/b2g-gaia/gaia/travis_venv/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'mozprofile==0.19','console_scripts','diff-profiles'
+__requires__ = 'mozprofile==0.19'
+import sys
+from pkg_resources import load_entry_point
+
+sys.exit(
+   load_entry_point('mozprofile==0.19', 'console_scripts', 'diff-profiles')()
+)
