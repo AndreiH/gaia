@@ -1,10 +1,8 @@
-<element name="about-moreInfo-developer" extends="section">
+<element name="developer" extends="section">
   <template>
 
     <header>
-      <button type="reset">
-        <span data-l10n-id="back" class="icon icon-back">Back</span>
-      </button>
+      <a href="#root"><span class="icon icon-back">Back</span></a>
       <h1 data-l10n-id="developer-header"> Developer </h1>
     </header>
 
@@ -13,12 +11,6 @@
         <h2 data-l10n-id="debug">Debug</h2>
       </header>
       <ul>
-        <li>
-          <label class="pack-checkbox">
-            <input type="checkbox" name="developer.menu.enabled">
-            <span data-l10n-id="developer-menu">Developer menu</span>
-          </label>
-        </li>
         <li>
           <label class="pack-checkbox">
             <input type="checkbox" name="debug.grid.enabled">
@@ -65,6 +57,12 @@
           <label class="pack-checkbox">
             <input type="checkbox" name="debug.ttl.enabled">
             <span data-l10n-id="ttl-monitor">Show time to load</span>
+          </label>
+        </li>
+        <li>
+          <label class="pack-checkbox">
+            <input type="checkbox" name="devtools.overlay">
+            <span data-l10n-id="devtools-overlay">Show devtools overlay</span>
           </label>
         </li>
         <li>
@@ -133,12 +131,6 @@
         </li>
         <li>
           <label class="pack-checkbox">
-            <input type="checkbox" name="rocketbar.enabled"/>
-            <span data-l10n-id="rocketbar-enabled">Rocketbar enabled</span>
-          </label>
-        </li>
-        <li>
-          <label class="pack-checkbox">
             <input type="checkbox" name="app-transition.enabled"/>
             <span data-l10n-id="enable-app-transition">Enable app transition</span>
           </label>
@@ -163,7 +155,7 @@
       </ul>
     </div>
 
-    <script src="js/about_more_info_developer.js"></script>
+    <script src="js/developer.js"></script>
 
   </template>
 </element>
