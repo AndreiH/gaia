@@ -882,6 +882,10 @@ class GaiaTestCase(MarionetteTestCase, B2GTestCaseMixin):
             self.device.manager.removeDir('/'.join(['/sdcard', item]))
 
     def cleanup_gaia(self, full_reset=True):
+
+        # kill any open apps
+        self.apps.kill_all()
+
         # remove media
         if self.device.is_android_build:
             for filename in self.data_layer.media_files:
@@ -944,9 +948,6 @@ class GaiaTestCase(MarionetteTestCase, B2GTestCaseMixin):
 
             # reset to home screen
             self.device.touch_home_button()
-
-        # kill any open apps
-        self.apps.kill_all()
 
         # disable sound completely
         self.data_layer.set_volume(0)
