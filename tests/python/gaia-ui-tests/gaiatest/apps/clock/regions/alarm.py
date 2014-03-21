@@ -17,6 +17,7 @@ class NewAlarm(Clock):
     _sound_menu_locator = (By.ID, 'sound-menu')
     _snooze_menu_locator = (By.ID, 'snooze-menu')
     _done_locator = (By.ID, 'alarm-done')
+    _close_locator = (By.ID, 'alarm-close')
     _time_button_locator = (By.XPATH, "//li[input[@id='time-select']]")
 
     _hour_picker_locator = (By.CSS_SELECTOR, '#value-picker-hours div')
@@ -25,8 +26,8 @@ class NewAlarm(Clock):
 
     def __init__(self, marionette):
         Clock.__init__(self, marionette)
-        view = self.marionette.find_element(*self._alarm_view_locator)
-        self.wait_for_condition(lambda m: view.location['x'] == 0 and view.is_displayed())
+        close = self.marionette.find_element(*self._close_locator)
+        self.wait_for_condition(lambda m: close.location['x'] == 0)
 
     def type_alarm_label(self, value):
         self.marionette.find_element(*self._alarm_name_locator).tap()
