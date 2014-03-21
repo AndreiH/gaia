@@ -26,10 +26,12 @@ class NewAlarm(Clock):
 
     def __init__(self, marionette):
         Clock.__init__(self, marionette)
-        close = self.marionette.find_element(*self._close_locator)
-        self.wait_for_condition(lambda m: close.location['x'] == 0)
+        view = self.marionette.find_element(*self._alarm_view_locator)
+        self.wait_for_condition(lambda m: view.location['x'] == 0 and view.is_displayed())
 
     def type_alarm_label(self, value):
+        close = self.marionette.find_element(*self._close_locator)
+        self.wait_for_condition(lambda m: close.location['x'] == 0)
         self.marionette.find_element(*self._alarm_name_locator).tap()
         self.keyboard.send(value)
         self.keyboard.dismiss()
