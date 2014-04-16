@@ -19,6 +19,7 @@ class Browser(Base):
     _main_screen_locator = (By.ID, 'main-screen')
 
     # Awesome bar/url bar
+    _refresh_icon_locator = (By.CSS_SELECTOR, '#url-button[style*="refresh"]')
     _awesome_bar_locator = (By.ID, 'url-input')
     _url_button_locator = (By.ID, 'url-button')
     _throbber_locator = (By.ID, 'throbber')
@@ -71,17 +72,19 @@ class Browser(Base):
         # TODO wait_for_throbber can resolve before the page has started loading
         time.sleep(1)
         self.wait_for_throbber_not_visible(timeout=timeout)
-        self.wait_for_element_displayed(*self._bookmark_button_locator)
+        self.wait_for_refresh_icon()
 
     def tap_back_button(self):
         current_url = self.url
         self.marionette.find_element(*self._back_button_locator).tap()
         self.wait_for_condition(lambda m: self.url != current_url)
+        self.wait_for_refresh_icon()
 
     def tap_forward_button(self):
         current_url = self.url
         self.marionette.find_element(*self._forward_button_locator).tap()
         self.wait_for_condition(lambda m: self.url != current_url)
+        self.wait_for_refresh_icon()
 
     def tap_bookmark_button(self):
         self.marionette.find_element(*self._bookmark_button_locator).tap()
@@ -97,6 +100,9 @@ class Browser(Base):
     def wait_for_throbber_not_visible(self, timeout=30):
         # TODO see if we can reduce this timeout in the future. >10 seconds is poor UX
         self.wait_for_condition(lambda m: not self.is_throbber_visible, timeout=timeout)
+
+    def wait_for_refresh_icon(self):
+        self.wait_for_element_displayed(*self._refresh_icon_locator)
 
     @property
     def is_throbber_visible(self):
