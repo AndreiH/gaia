@@ -13,7 +13,7 @@ class VideoPlayer(Base):
     _thumbnails_locator = (By.ID, 'thumbnails')
 
     # Video list/summary view
-    _video_items_locator = (By.CSS_SELECTOR, '.img')
+    _video_items_locator = (By.CSS_SELECTOR, 'li.thumbnail')
     _video_name_locator = (By.CSS_SELECTOR, 'div.details')
 
     _empty_video_title_locator = (By.ID, 'overlay-title')
@@ -36,7 +36,7 @@ class VideoPlayer(Base):
         return self.marionette.find_element(*self._video_name_locator).get_attribute('data-title')
 
     def tap_first_video_item(self):
-        first_video_item = self.marionette.find_elements(*self._video_items_locator)
+        first_video_item = self.marionette.find_elements(*self._video_items_locator)[0]
         first_video_item.tap()
         from gaiatest.apps.videoplayer.regions.fullscreen_video import FullscreenVideo
         fullscreen = FullscreenVideo(self.marionette)
