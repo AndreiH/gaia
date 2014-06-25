@@ -799,6 +799,7 @@ class GaiaTestCase(MarionetteTestCase, B2GTestCaseMixin):
         # push to the test storage space defined by device root
         self.device.push_file(self.resource(filename), count, '/'.join([
             self.device.manager.deviceRoot, destination]))
+        time.sleep(6)
 
     def resource(self, filename):
         return os.path.abspath(os.path.join(os.path.dirname(__file__), 'resources', filename))
