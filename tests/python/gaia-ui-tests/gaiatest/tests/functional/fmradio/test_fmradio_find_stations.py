@@ -26,6 +26,8 @@ class TestFMRadioFindStations(GaiaTestCase):
 
         # wait for the radio start-up
         self.wait_for_condition(lambda m: self.data_layer.is_fm_radio_enabled)
+        import time
+        time.sleep(1)
 
         # save the current frequency
         initial_frequency = self.fm_radio.frequency
