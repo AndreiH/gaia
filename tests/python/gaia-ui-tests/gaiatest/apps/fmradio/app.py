@@ -35,12 +35,16 @@ class FmRadio(Base):
 
     def tap_next(self):
         current_frequency = self.frequency
-        self.marionette.find_element(*self._next_button_locator).tap()
+        next_button = self.marionette.find_element(*self._next_button_locator)
+        self.wait_for_condition(lambda m: next_button.is_enabled())
+        next_button.tap()
         self.wait_for_condition(lambda m: self.frequency != current_frequency)
 
     def tap_previous(self):
         current_frequency = self.frequency
-        self.marionette.find_element(*self._prev_button_locator).tap()
+        prev_button = self.marionette.find_element(*self._prev_button_locator)
+        self.wait_for_condition(lambda m: prev_button.is_enabled())
+        prev_button.tap()
         self.wait_for_condition(lambda m: self.frequency != current_frequency)
 
     def tap_power_button(self):
